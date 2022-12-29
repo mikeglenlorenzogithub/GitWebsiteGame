@@ -1,13 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Game MikeGL</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    
-</body>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous" />
+
+    <!-- My CSS -->
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top shadow-lg" style="background-color: #16262f">
+      <div class="container">
+        <a class="navbar-brand" href="#">Game MikeGL</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Game1</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Game2</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">My Profile</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Akhir Navbar -->
+
+    <!-- Jumbotron -->
+    <section id="home" class="jumbotron text-center">
+      <img src="img/profile.jpg" alt="Michael Glen Lorenzo" width="200" class="rounded-circle img-thumbnail" />
+      <h1 class="display-4">Michael Glen Lorenzo</h1>
+      <p class="lead">Programmer | Dancer | Designer</p>
+      <hr class="my-4" />
+      <p>Click the button below if you want to know about this website</p>
+      <a class="btn btn-primary btn-lg" style="background-color: #2e5e68" href="#about" role="button">Learn more</a>
+    </section>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path fill="#bee6ee" fill-opacity="1" d="M0,128L288,96L576,288L864,64L1152,64L1440,192L1440,0L1152,0L864,0L576,0L288,0L0,0Z"></path>
+    </svg>
+    <!-- Akhir Jumbotron -->
+
+    <!-- About -->
+    <section id="about">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col">
+            <h2>About This Website</h2>
+          </div>
+        </div>
+        <br />
+        <div class="row">
+          <div class="col">
+            <h4 class="text-center">About Game1</h4>
+            <p>Game1 is about pinball</p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, culpa maiores, minima minus a quod aliquam modi optio mollitia id obcaecati, reprehenderit molestiae eaque. Quia sequi commodi nisi sit, saepe pariatur qui
+              adipisci, eaque fuga amet totam quidem architecto ea.
+            </p>
+          </div>
+          <div class="col">
+            <h4 class="text-center">About Game2</h4>
+            <p>Game2 is about whack a mole</p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi dignissimos ex laboriosam dolorem doloribus debitis nemo laborum, hic eum repellat corrupti in ipsam voluptatum? Voluptate quam dolorem nisi voluptatum at qui,
+              quo perferendis, omnis aliquam est aperiam ab corrupti cupiditate?
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="container" style="background-color: #bee6ee">
+        <div class="row text-center">
+          <h4>Link</h4>
+          <div class="col">
+            <a href="#">Link1</a>
+          </div>
+          <div class="col">
+            <a href="#">Link2</a>
+          </div>
+          <div class="col">
+            <a href="#">Link3</a>
+          </div>
+        </div>
+      </div>
+      <div class="copyright text-center">
+        <p>&copy; 2022. <b>Game MikeGL</b> All Rights Served.</p>
+      </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  </body>
 </html>
