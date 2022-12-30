@@ -1,3 +1,4 @@
+/* index */
 .jumbotron {
   padding: 2rem;
   background-color: #bee6ee;
@@ -11,12 +12,25 @@
   padding-top: 4px;
 }
 
+.judul {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+/* game1 */
 .game1user {
+  padding: 25px;
+  background-color: #bee6ee;
+  border-radius: 50px 50px 0px 0px;
+}
+
+.game1comp {
   padding: 25px;
   background-color: #bee6ee;
 }
 
-.judul {
-  margin-top: 1rem;
-  margin-bottom: 1rem;
+.hasil {
+  padding: 25px;
+  background-color: #bee6ee;
+  border-radius: 0px 0px 50px 50px;
 }
