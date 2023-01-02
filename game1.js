@@ -45,7 +45,7 @@ pilihan.forEach(function (i) {
     setTimeout(function () {
       const imgComp = document.querySelector(".pilihan-comp");
       imgComp.setAttribute("src", "img/tangan-" + pilihanComp + ".png");
-      const akhir = document.querySelector(".hasil");
+      const akhir = document.querySelector(".game1hasil");
       akhir.innerHTML = hasil;
     }, 1000);
   });

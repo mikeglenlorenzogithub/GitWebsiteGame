@@ -17,6 +17,10 @@
   margin-bottom: 1rem;
 }
 
+.link {
+  border-radius: 0px 0px 50px 50px;
+}
+
 /* game1 */
 .game1user {
   padding: 25px;
@@ -29,7 +33,7 @@
   background-color: #bee6ee;
 }
 
-.hasil {
+.game1hasil {
   padding: 25px;
   background-color: #bee6ee;
   border-radius: 0px 0px 50px 50px;
