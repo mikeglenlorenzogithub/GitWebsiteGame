@@ -38,3 +38,23 @@
   background-color: #bee6ee;
   border-radius: 0px 0px 50px 50px;
 }
+
+/* profile */
+.profileatas {
+  margin: auto;
+  width: 35rem;
+  height: 35rem;
+  background-color: #bee6ee;
+  border-radius: 100%;
+}
+
+.profileatas .profileatasin {
+  margin-top: 4rem;
+}
+
+.profilebawah {
+  background-color: #bee6ee;
+  border-radius: 50px 50px 50px 50px;
+  margin-left: 21rem;
+  margin-right: 21rem;
+}
